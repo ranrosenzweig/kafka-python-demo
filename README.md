@@ -2,6 +2,9 @@
 
 This demo is a simple backend app for ordering food, implemented on python and using kafka as event driven platform.<br/>
 <br/>
+
+![! kafka-python-demo](https://github.com/ranrosenzweig/kafka-python-demo/blob/main/doc/img/diagram.png)
+
 #### 0.pre-requisites:
 ```sh
 pip install kafka-python
