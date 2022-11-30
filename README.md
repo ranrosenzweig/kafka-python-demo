@@ -2,7 +2,7 @@
 
 This demo is a simple backend app for ordering food, implemented on python and using kafka as event driven platform.<br/>
 <br/>
-Services included:
+**Services included**:
 1. **Food Ordering Client** - responsible to generate food orders by the user (not implemented)
 2. **Orders** - responsible to get the orders from the clients, create event and send to the system.
 3. **Transaction** - responsible to get orders, provide a confirmation and send new event back to the system.
@@ -17,13 +17,13 @@ Services included:
 pip install kafka-python
 ```
 
-#### 1. Start the Kafka broker
+#### 1. Start the Kafka broker:
 From a directory containing the docker-compose.yml file, start all services in the correct order.
 ```sh
 docker-compose up -d
 ```
 
-#### 2. Start the app components
+#### 2. Start the app components:
 ```sh
 python3 transaction.py 
 python3 analytics.py 
@@ -32,7 +32,7 @@ python3 orders.py
 ```
 
 
-Check config.ini for configurations.
+**Note**: Check config.ini for configure some values.
 
 </br>
 
