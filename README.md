@@ -25,10 +25,10 @@ docker-compose up -d
 
 #### 2. Start the app components
 ```sh
-paython3 transaction.py 
-paython3 analytics.py 
-paython3 email.py 
-paython3 orders.py 
+python3 transaction.py 
+python3 analytics.py 
+python3 email.py 
+python3 orders.py 
 ```
 
 
